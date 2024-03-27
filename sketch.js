@@ -13,8 +13,8 @@ let guiTextColor = '#bababa';
 
 // Blob
 let points = []; // Array to store blob vertex points
-let amount = 3000; // Number of blob points
-let blobSize = 600; // Size of the blob
+let amount = 1000; // Number of blob points
+let blobSize = 200; // Size of the blob
 let noiseScale = 0.004;
 let smoothingEnabled = true;
 
