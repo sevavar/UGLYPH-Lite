@@ -102,7 +102,7 @@ function draw() {
   endShape(CLOSE);
 
   // Brush
-  if (mouseIsPressed === false) {
+  if (mouseIsPressed === true) {
     // Vertex attraction or repulsion
     for (let i = 0; i < points.length; i++) {
       let d = dist(mouseX - width / 2, mouseY - height / 2, points[i].x, points[i].y);
